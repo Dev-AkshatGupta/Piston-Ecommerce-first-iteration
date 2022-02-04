@@ -1,0 +1,55 @@
+
+:root{
+    --PRIMARY:rgb(255,255,255);
+    /* --secondary-color:; */
+    --ACCENT-COLOR:#fab75f;
+    --GREY:#6c757d;
+    --GREY-DARK:#343a40;
+    --PURE-BLACK:#212529;
+    --PURE-WHITE:#ffffff;
+    --BREAKPOINT-SML: 576px;
+    --BREAKPOINT-MED: 768px;
+    --BREAKPOINT-LRG: 992px;
+    --BREAKPOINT-XL: 1200px;
+}
+/* default and resEtting */
+
+li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* utility classes */
+.display-none{
+    display: none;
+}
+.text-accent{
+    color: var(--ACCENT-COLOR);
+}
+.flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-black{
+    color: var(--PURE-BLACK);
+}
+.flex-align-end{
+    display: flex;
+    align-items: flex-end;
+}

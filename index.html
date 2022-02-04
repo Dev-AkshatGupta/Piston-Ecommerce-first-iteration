@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Stylesheet linked for the Ecommerce  -->
-    <link rel="stylesheet" href="./styles.css">
+     <!-- favicon  linked -->
+     <link rel="shortcut icon" type="image/jpg" href="./assets/faicon2.png" />
+    <!-- Fonts awesome linked -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- Piston UI linked for the styles -->
     <link rel="stylesheet" href="https://piston-components.netlify.app/styles.css">
-
+    <!-- Stylesheet linked for the Ecommerce  -->
+    <link rel="stylesheet" href="./styles.css">
+    
 
     <title>Piston Mart</title>
 </head>
+
 <body>
-    
+    <nav class="navigation text-black">
+        <!-- Hamburger menu display -->
+
+        <div class="icon flex-center-center">
+            <div class="menu-btn display-none"></div>
+            <p class="icons-p text-black ">PISTON <span class="text-accent">mart</span></p>
+        </div>
+        <div class="nav-top">
+            <ul class="nav-top__list">
+                <li class="nav-top__list-item"> <a href="./" class="link-btn">Sign-in/join</a></li>
+                <li class="nav-top__list-item"><a href="./" class="link-btn">Customer-Care</a></li>
+            </ul>
+        </div>
+        <div class="nav-bottom ">
+            <ul class="nav-bottom__list">
+                <li class="nav-bottom__list-item"><button class="btn nav-bottom-btn">Turbo-chargers</button></li>
+                <li class="nav-bottom__list-item"><button class="btn btn-sec nav-bottom-btn">Oils Lubricants</button>
+                </li>
+                <li class="nav-bottom__list-item"><button class="btn btn-sec nav-bottom-btn">Three-wheelers</button>
+                </li>
+                <li class="nav-bottom__list-item"><button class="btn btn-sec nav-bottom-btn">Spare-Parts</button></li>
+                <li class="nav-bottom__list-item"><button class="btn btn-sec nav-bottom-btn"></button></li>
+                <li class="nav-bottom__list-item">
+                    <span class="nav-bottom-search-box"><input type="text" class="nav-bottom-search" placeholder=" search"></span>
+                </li>
+                <li class="nav-bottom__list-item">
+                    <button class="btn-icon-sml nav-bottom-icons">
+                        <i class="fas fa-shopping-bag" ></i></button>
+                </li>
+                <li class="nav-bottom__list-item">
+                    <button class="btn-icon-sml nav-bottom-icons">
+                        <i class="fas fa-sign-in-alt"></i></button>
+                </li>
+                
+
+            </ul>
+        </div>
+    </nav>
+
+
+
     <script src="./script.js"></script>
 </body>
+
 </html>
