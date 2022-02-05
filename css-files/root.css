@@ -53,3 +53,24 @@ li{
     display: flex;
     align-items: flex-end;
 }
+.divider-2{
+    height: 2px;
+    background-color: var(--GREY);
+}
+.divider-5{
+    height: 5px;
+    background-color: var(--GREY);
+}
+.margin-2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.text-white{
+color: var(--PURE-WHITE);
+}
+.text-3{
+    font-size: 3rem;
+}
+.text-2{
+    font-size: 2rem;
+}
