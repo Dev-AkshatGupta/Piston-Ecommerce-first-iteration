@@ -118,10 +118,9 @@
 }
 
 .first-scroller {
-    /* height: 20rem; */
-    border: solid red;
+    margin-left: 7rem;
     display: grid;
     grid-auto-flow: column;
-    gap: 2%;
+    gap: 2rem;
     grid-auto-columns: 30%;
 }
