@@ -77,7 +77,7 @@
 }
 
 .nav-bottom-search:focus {
-    border: none;
+    outline: none;
 }
 
 .nav-bottom-icons {
