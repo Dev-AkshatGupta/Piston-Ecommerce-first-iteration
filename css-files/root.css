@@ -82,11 +82,17 @@ li{
 .margin-l-1{
     margin-left: 1rem;
 }
+.margin-l-16{
+    margin-left: 16rem;
+}
 .padding-4{
 padding: 4px;
 }
 .text-white{
 color: var(--PURE-WHITE);
+}
+.text-dark-grey{
+    color: var(--GREY-DARK);
 }
 .text-3{
     font-size: 3rem;
