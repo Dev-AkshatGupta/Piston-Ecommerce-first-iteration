@@ -111,3 +111,8 @@ font-weight: 900;
 .background-orange{
     background-color: var(--ACCENT-COLOR-LIGHT);
 }
+.flex-center-space-betw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
