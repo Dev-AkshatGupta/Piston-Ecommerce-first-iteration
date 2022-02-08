@@ -85,11 +85,18 @@ a{
 .margin-l-1{
     margin-left: 1rem;
 }
+.margin-l-4{
+    margin-left: 4rem;
+}
 .margin-l-16{
     margin-left: 16rem;
 }
 .padding-4{
 padding: 4px;
+}
+.padding-l-r{
+    padding-left:1rem ;
+    padding-right: 1rem;
 }
 .text-white{
 color: var(--PURE-WHITE);
@@ -102,6 +109,9 @@ color: var(--PURE-WHITE);
 }
 .text-2{
     font-size: 2rem;
+}
+.text{
+    font-size: 16px;
 }
 .text-line-through{
     text-decoration:line-through;
@@ -120,6 +130,20 @@ font-weight: 900;
     align-items: center;
     justify-content: space-between;
 }
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .width-70{
     width: 70%;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.padding-5-10{
+    padding: .5rem 1rem;
+}
+.display-flex{
+    display: flex;
 }
