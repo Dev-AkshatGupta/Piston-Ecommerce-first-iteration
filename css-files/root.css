@@ -16,7 +16,7 @@
     --SLATE-50:#f8fafc;
     --STONE-100:#F5F5F4;
 }
-/* default and resEtting */
+/* default and resetting */
 
 li{
     list-style: none;
@@ -155,4 +155,4 @@ font-weight: 900;
 }
 .display-flex{
     display: flex;
-
+}
