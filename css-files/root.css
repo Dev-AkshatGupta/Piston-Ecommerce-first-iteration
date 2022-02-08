@@ -97,6 +97,7 @@ color: var(--PURE-WHITE);
 .text-dark-grey{
     color: var(--GREY-DARK);
 }
+
 .text-3{
     font-size: 3rem;
 }
@@ -114,6 +115,12 @@ font-weight: 900;
 .background-orange{
     background-color: var(--ACCENT-COLOR-LIGHT);
 }
+.background-stone{
+    background: var(--STONE-100);
+}
+.background-white{
+    background-color: var(--PURE-WHITE);
+}
 
 .flex-center-space-betw{
     display: flex;
@@ -122,4 +129,7 @@ font-weight: 900;
 }
 .width-70{
     width: 70%;
+}
+.width-r-48{
+    width:48rem;
 }
