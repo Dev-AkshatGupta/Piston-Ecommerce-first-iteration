@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon  linked -->
+    <link rel="shortcut icon" type="image/jpg" href="../assets/faicon2.png" />
+    <!-- Fonts awesome linked -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Piston UI linked for the styles -->
+    <link rel="stylesheet" href="https://piston-components.netlify.app/styles.css">
+    <!-- Stylesheet linked for the Ecommerce  -->
+    <link rel="stylesheet" href="../styles.css">
+
+
+    <title>Piston Mart</title>
+</head>
+
+<body>
+    <nav class="navigation text-black">
+        <!-- Hamburger menu display -->
+
+        <div class="icon flex-center-center">
+            <div class="menu-btn display-none"></div>
+            <p class="icons-p text-black ">PISTON <span class="text-accent">parTs</span></p>
+        </div>
+        <div class="nav-top">
+            <ul class="nav-top__list">
+                <li class="nav-top__list-item"> <a href="./" class="link-btn">Sign-in/join</a></li>
+                <li class="nav-top__list-item"><a href="./" class="link-btn">Customer-Care</a></li>
+            </ul>
+        </div>
+        <div class="nav-bottom ">
+            <ul class="nav-bottom__list">
+                <li class="nav-bottom__list-item"><button class="btn nav-bottom-btn">Turbo-chargers</button></li>
+                <li class="nav-bottom__list-item"><button class="btn btn-sec nav-bottom-btn">Oils Lubricants</button>
+                </li>
+                <li class="nav-bottom__list-item"><button class="btn btn-sec nav-bottom-btn">Three-wheelers</button>
+                </li>
+                <li class="nav-bottom__list-item"><button class="btn btn-sec nav-bottom-btn">Spare-Parts</button></li>
+                <li class="nav-bottom__list-item"><button class="btn btn-sec nav-bottom-btn">Power Stations</button>
+                </li>
+                <li class="nav-bottom__list-item">
+                    <div class="nav-bottom-search-box"><input type="text" class="nav-bottom-search"
+                            placeholder=" search"></div>
+                </li>
+                <li class="nav-bottom__list-item">
+                    <button class="btn-icon-sml nav-bottom-icons">
+                        <i class="fas fa-shopping-bag"></i></button>
+                </li>
+                <li class="nav-bottom__list-item">
+                    <button class="btn-icon-sml nav-bottom-icons">
+                        <i class="fas fa-sign-in-alt"></i></button>
+                </li>
+                <li class="nav-bottom__list-item">
+                    <button class="btn-icon-sml nav-bottom-icons">
+                        <i class="fas fa-heart"></i></button>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+    </nav>
+
+    <div class="margin-2"></div>
+    <!-- Product page Grid Layout -->
+
+
+    <h1 class="wishlist-heading text-center">My Cart(1)</h1>
+    <main class="products-main padding-4">
+        <div class="card-vertical smooth-square-radius margin-top-1">
+
+            <div class="card-vertical-img-cont">
+                <img src="../assets/air-filter.webp" alt="Air Filter">
+            </div>
+            <div class="flex-center-space-betw padding-5-10">
+                <h3 class="card-heading ">Air Filter</h3>
+                <a href="" class="btn-icon-sml text-2"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="card-vertical-text sub-text margin-2">
+                <span class="text-black margin-l-1 font-weight-900">₹ 5</span> <span
+                    class="text-line-through margin-l-1">₹8</span>
+                <span class=" margin-l-1 text-black smooth-square-radius background-orange padding-4">5% off</span>
+            </div>
+            <div class="card-element__bottom no-border flex-wrap">
+                <button class="btn btn-pri margin-1 width-70">Remove from the Cart</button>
+                <button class="btn btn-sec margin-1 width-70 ">move to wishlist</button>
+
+
+            </div>
+        </div>
+        <div class="card-payment smooth-square-radius margin-top-1">
+
+            <div class="flex-center-space-betw padding-5-10">
+                <h2>Price Details </h2>
+            </div>
+            <div class="divider-2"></div>
+
+            <div class="flex-center-space-betw padding-l-r">
+                <p class="text">Price(2 items):</p>
+                <p class="text">₹500</p>
+            </div>
+
+            <div class="flex-center-space-betw padding-l-r">
+                <p class="text">Discount:</p>
+                <p class="text ztext-line-through">-₹100</p>
+            </div>
+
+            <div class="flex-center-space-betw padding-l-r">
+                <p class="text">Delivery Charges:</p>
+                <p class="text">₹50</p>
+            </div>
+            <div class="divider-2"></div>
+            <div class="flex-center-space-betw padding-l-r">
+                <h3>Total</h3>
+                <h3>₹450</h3>
+
+            </div>
+            <div class="divider-2"></div>
+            <p class="text padding-l-r">You will save 100 on this order</p>
+            <div class="flex-center"><button class="btn btn-pri width-70  ">Place Order</button> </div>
+        </div>
+
+    </main>
+
+    <div class="divider-2"></div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
