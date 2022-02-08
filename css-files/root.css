@@ -21,6 +21,9 @@
 li{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 
 
 
@@ -111,8 +114,12 @@ font-weight: 900;
 .background-orange{
     background-color: var(--ACCENT-COLOR-LIGHT);
 }
+
 .flex-center-space-betw{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.width-70{
+    width: 70%;
 }
