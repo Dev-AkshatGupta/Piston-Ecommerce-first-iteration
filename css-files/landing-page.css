@@ -1,7 +1,6 @@
 .navigation {
     width: 100%;
     background-color: var(--PRIMARY);
-    /* opacity: 0.5;  */
     filter: alpha(opacity=50);
     box-shadow: 0 2px 3px -1px rgb(0 0 0 / 10%);
     border-top: 5px solid var(--ACCENT-COLOR);

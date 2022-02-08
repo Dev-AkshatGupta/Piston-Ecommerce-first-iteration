@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favicon  linked -->
-    <link rel="shortcut icon" type="image/jpg" href="./assets/faicon2.png" />
+    <link rel="shortcut icon" type="image/jpg" href="../assets/faicon2.png" />
     <!-- Fonts awesome linked -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- Piston UI linked for the styles -->
     <link rel="stylesheet" href="https://piston-components.netlify.app/styles.css">
     <!-- Stylesheet linked for the Ecommerce  -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../styles.css">
 
 
     <title>Piston Mart</title>
 </head>
 
-<body>
+<body class="background-stone">
     <nav class="navigation text-black">
         <!-- Hamburger menu display -->
 
@@ -29,7 +29,7 @@
         </div>
         <div class="nav-top">
             <ul class="nav-top__list">
-                <li class="nav-top__list-item"> <a href="./pages/sign-up.html" class="link-btn">Log-in/join</a></li>
+                <li class="nav-top__list-item"> <a href="./" class="link-btn">Sign-in/join</a></li>
                 <li class="nav-top__list-item"><a href="./" class="link-btn">Customer-Care</a></li>
             </ul>
         </div>
@@ -48,50 +48,50 @@
                             placeholder=" search"></div>
                 </li>
                 <li class="nav-bottom__list-item">
-                    <a href="./pages/cart-management.html" class="btn-icon-sml nav-bottom-icons">
-                        <i class="fas fa-shopping-bag"></i></a>
+                    <button class="btn-icon-sml nav-bottom-icons">
+                        <i class="fas fa-shopping-bag"></i></button>
                 </li>
                 <li class="nav-bottom__list-item">
                     <button class="btn-icon-sml nav-bottom-icons">
                         <i class="fas fa-sign-in-alt"></i></button>
                 </li>
                 <li class="nav-bottom__list-item">
-                    <a href="./pages/wishlist.html" class="btn-icon-sml nav-bottom-icons">
-                        <i class="fas fa-heart"></i></a>
+                    <button class="btn-icon-sml nav-bottom-icons">
+                        <i class="fas fa-heart"></i></button>
                 </li>
 
 
             </ul>
         </div>
-        <!-- Drop down background -->
-        <div class="dropdownbackground"></div>
+
+
     </nav>
-    <div class="banner-image margin-2">
-        <div class="banner-img-content">
-            <h1 class="text-white icons-p">Piston <span class="text-black">parTs</span></h1>
-            <div class="banner-content-list">
-                <ul class="banner-list text-3">
-                    <li class="banner-li"><span class="text-white"><i class="fas fa-certificate"></i><span
-                                class="text-black"> Original-Parts</span></li>
-                    <li class="banner-li"><span class="text-white"><i class="fas fa-wallet"></i></span><span
-                            class="text-black"> Affordable Rates</span></li>
-                    <li class="banner-li"><span class="text-white"><i class="fas fa-bullseye"></i></span><span
-                            class="text-black"> Wide Variety</span></li>
-                </ul>
-            </div>
-            <a href="./pages/products.html" class="link-btn btn btn-outline-pri text-2">Shop now</a>
-        </div>
 
-    </div>
-    <div class="margin-2 divider-5"></div>
+    <div class="margin-2"></div>
+    <!-- Product page Grid Layout -->
 
-    <!-- Grid layouted scroller -->
-    <div class="first-scroller">
-        <a href="" class="scroller-element"><img src="./assets/2ae360b.webp" alt=""></a>
-        <a href="" class="scroller-element"><img src="./assets/oil.webp" alt=""></a>
-        <a href="" class="scroller-element"><img src="./assets/headlights.webp" alt=""></a>
-    </div>
-    <div class="margin-2 divider-2"></div>
+
+    <main class="products-main">
+
+        <form class="form flex-column-center card-shadow background-white no-border width-38">
+            <h1 class="text-black">Sign-Up</h1>
+            <input type="email" name="email-id" class="form-input" placeholder="Enter Your Email">
+            <input type="password" name="password" class="form-input" placeholder="Enter Your Password">
+
+
+
+            <div><input type="checkbox" name="" id=""><label for="input" class="sub-text">I accept all the terms and
+                    conditions</label></div>
+
+
+            <button class="btn btn-outline-pri form-btn smooth-square-radius ">Sign-Up</button>
+            <a href="./sign-up.html" class="link-btn">Already have account <i class="fas fa-chevron-right text-accent"></i></a>
+        </form>
+
+
+
+    </main>
+
 
 
     <script src="./script.js"></script>
